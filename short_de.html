@@ -1,0 +1,8878 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>shortsell.nl</title>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V68YX7NN0C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V68YX7NN0C');
+</script>
+
+
+
+<!--
+    
+-->
+
+    <meta http-equiv="Content-Security-Policy" content="">
+
+
+<link href="/media/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/media/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="/media/prototype/prototype.js"></script>
+<script type="text/javascript" src="/media/js/scolor.js"></script>
+<script type="text/javascript" src="/media/js/shortsell.js"></script>
+
+<script type="text/javascript" src="/media/tablekit/tablekit.js"></script>
+
+
+<script>
+  
+  try {
+    const nm = "FCCDCF";        
+    const dm = "shortsell.nl";  
+    const pa = "/";             
+    let tc = ('; ' + document.cookie).split('; ' + nm + '=');
+    if (tc.length === 2) {
+      tc = decodeURIComponent(tc.pop().split(';').shift());
+      tc = JSON.parse(tc)[3][0].substring(1,9);
+      tc = Uint8Array.from(window.atob(tc), (v) => v.charCodeAt(0));
+      let dt = (tc[0] * 2**28) + (tc[1] * 2**20) + (tc[2] * 2**12) +
+               (tc[3] * 2**4)  + (tc[4] >> 4);
+      if (Date.now() / 1000 - dt / 10 > 86400 * 365)
+        document.cookie = nm + "=;path=" + pa + ";domain=" + dm +
+                          ";expires=" + new Date(0).toUTCString();
+    }
+  } finally {}
+</script>
+
+
+
+<style type="text/css">
+.hero-unit {
+    background-image: url('/media/shortsell.png');
+}
+
+
+.sortcol { cursor: pointer; }
+.sortasc { cursor: pointer; }
+.sortdesc { cursor: pointer; }
+.sortcol .down { display: none; } 
+.sortcol .up { display: none; }
+.sortasc .down { 
+    display: inline;
+}
+.sortasc .up { 
+    display: none;
+}
+.sortdesc .down {
+    display: none;
+}
+.sortdesc .up {
+    display: inline;
+}
+
+</style>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4579712846808898" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<div class="span12">
+
+
+<div class="row">
+<div class="span12">
+<br/>
+</div>
+</div>
+
+
+<div class="row">
+<div class="span12" id="banner">
+<a href="/short/">
+<div class="hero-unit">
+<p class="lead" style="color: #ffffff;">Dagelijks de mutaties uit het AFM short selling register.
+</p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="span12">
+    <div style="
+      padding:8px 12px;
+      margin-bottom:10px;
+      font-size:12px;
+      color:#555;
+    ">
+      <strong><a href="#disclaimer">Disclaimer:</a></strong>
+      De informatie op shortsell.nl is gebaseerd op openbaar gepubliceerde shortmeldingen en kan onvolledig of vertraagd zijn.
+      <i>The information on shortsell.nl is based on publicly disclosed short positions and may be incomplete or delayed.</i>
+    </div>
+ </div>
+</div>
+
+
+
+<div class="row-fluid">
+
+<div class="span2">
+
+<ul class="nav nav-list">
+<ul class="nav nav-list">
+<li><a href="/morning-note"><i class="icon-chevron-right"></i> Morning note</a></li>
+<li>&nbsp;</li>
+<li>Landen:</li>
+<li><a href="/universes/Nederland"><i class="icon-chevron-right"></i> Nederland</a></li>
+<li><a href="/universes/Belgie"><i class="icon-chevron-right"></i> Belgi&euml;</a></li>
+<li><a href="/universes/Engeland"><i class="icon-chevron-right"></i> Engeland</a></li>
+<li><a href="/universes/Frankrijk"><i class="icon-chevron-right"></i> Frankrijk</a></li>
+<li><a href="/universes/Duitsland"><i class="icon-chevron-right"></i> Duitsland</a></li>
+<li><a href="/universes/Italie"><i class="icon-chevron-right"></i> Itali&euml;</a></li>
+<li><a href="/universes/Spanje"><i class="icon-chevron-right"></i> Spanje</a></li>
+<li><a href="/universes/Finland"><i class="icon-chevron-right"></i> Finland</a></li>
+<li><a href="/universes/Griekenland"><i class="icon-chevron-right"></i> Griekenland</a></li>
+</ul>
+
+
+
+</ul>
+</div>
+
+
+
+<div class="span6">
+
+<div class="row-fluid">
+<div class="span12" style="background_color_: #00ffff;">
+<h3 >Actuele netto shortposities voor Duitsland</h3>
+Meldingen in het shortregister worden gepubliceerd na het sluiten van de beurs één dag na de dag waarop de posities zijn ingenomen.
+De posities in dit overzicht hebben betrekking tot 28 August en zijn meest actuele gegevens die bekend zijn.
+
+
+<hr/>
+</div>
+</div>
+
+<div class="row-fluid">
+
+
+
+
+
+
+<div class="span12" style="background_color_: #ff0000;">
+<br/>
+<table class="table table-striped table-condensed sortable">
+<thead>
+<tr>
+<th class="">Aandeel&nbsp;<span class="down"><i class="icon-chevron-down"></i></span><span class="up"><i class="icon-chevron-up"></i></span></th>
+<th class="commavalue sortfirstdesc">Totaal&nbsp;short&nbsp;<span class="down"><i class="icon-chevron-down"></i></span><span class="up"><i class="icon-chevron-up"></i></span></th>
+<th class="nosort" style="white-space: nowrap;">&Delta;% sinds 27 August</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td><a href="/short/CHOCOLADEFABRIKENLI">CHOCOLADEFABRIKEN LINDT-PC</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RhoenKlinikum">Rhön-Klinikum</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Lanxess">Lanxess</a></td>
+<td><span>8.95%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/METRO">METRO</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SAFHOLLANDgmbh">SAF-HOLLAND</a></td>
+<td><span>1.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/STADA">STADA Arzneimittel</a></td>
+<td><span>0.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Software">Software</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ModernTimes">Modern Times Group</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Delticom">Delticom</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IVGVerwaltGastro">IVG Immobilien - Verwaltung - Gastronomie</a></td>
+<td><span>0.67%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Fraport">Fraport Frankfurt Airport Services Worldwide</a></td>
+<td><span>4.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Drillisch">Drillisch</a></td>
+<td><span>1.30%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DialogSemicon">Dialog Semicon</a></td>
+<td><span>2.03%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SkyDeutschland">Sky Deutschland</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Wirecard">Wirecard</a></td>
+<td><span>4.42%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SuessMicroTec">Süss MicroTec</a></td>
+<td><span>0.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TAG">TAG Immobilien</a></td>
+<td><span>7.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WincorNixdorf">Wincor Nixdorf</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NanoRepro">NanoRepro</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DialogPlc">Dialog Semiconductor</a></td>
+<td><span>1.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheBeteiligung">Deutsche Beteiligungs</a></td>
+<td><span>1.02%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CommerzbankR">Commerzbank AG - Rechtsabteilung</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Deutz">Deutz</a></td>
+<td><span>4.92%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Evotec">Evotec</a></td>
+<td><span>2.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Commerzbank">Commerzbank</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QiagenAG">Qiagen</a></td>
+<td><span>1.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/UnitedInternet">United Internet</a></td>
+<td><span>1.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Euromicron">Euromicron Communication &amp; Control Technology</a></td>
+<td><span>0.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SilverBay">Silver Bay Realty Trust Corp.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aixtron">Aixtron</a></td>
+<td><span>9.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AirBerlin">Air Berlin</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Heidelberger">Heidelberger Druckmaschinen</a></td>
+<td><span>4.36%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheEuroShop">Deutsche EuroShop</a></td>
+<td><span>1.96%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AsianBamboo">Asian Bamboo</a></td>
+<td><span>2.07%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Nordex">Nordex</a></td>
+<td><span>9.48%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QiagenNV">Qiagen</a></td>
+<td><span>2.89%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DialogSemiconducoto">Dialog Semiconducotor</a></td>
+<td><span>3.11%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SolarWorld">SolarWorld</a></td>
+<td><span>0.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HannoverRe">Hannover Rückversicherung</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KUKARoboter">KUKA Roboter</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IVGDeutschlandImmo">IVG Deutschland Immobilien</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Infineon">Infineon Technologies</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SAFHolland">SAF Holland</a></td>
+<td><span>2.86%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Hochtief">Hochtief</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Singulus">Singulus Technologies</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Volkswagen">Volkswagen</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Freenet">Freenet</a></td>
+<td><span>3.35%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Logitech">Logitech International</a></td>
+<td><span>1.66%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Douglas">Douglas Holding</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VolkswagenVersicher">Volkswagen Versicherung</a></td>
+<td><span>1.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Wacker">Wacker Chemie</a></td>
+<td><span>4.03%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KloecknerUSA">Kloeckner &amp; Co USA Beteiligungs</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IVG">IVG Immobilien</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LPKF">LPKF Laser &amp; Electronics</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/METROGmbH">METRO Groß- und Lebensmitteleinzelhandel Holding</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PlanetPayment">Planet Payment</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AarealBank">Aareal Bank</a></td>
+<td><span>2.18%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RWE">RWE</a></td>
+<td><span>0.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Draegerwerk">Drägerwerk &amp; Co.</a></td>
+<td><span>1.04%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Leoni">Leoni</a></td>
+<td><span>4.49%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Suedzucker">Südzucker</a></td>
+<td><span>2.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DICAsset">DIC Asset</a></td>
+<td><span>1.41%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SMASolar">SMA Solar Technology</a></td>
+<td><span>11.44%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AxelSpringer">Axel Springer</a></td>
+<td><span>1.20%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OSRAM">OSRAM Licht</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DialogSemiconductor">Dialog Semiconductor</a></td>
+<td><span>4.02%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZooPlus">ZooPlus</a></td>
+<td><span>1.73%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GlobalPVQ">Global PVQ</a></td>
+<td><span>0.63%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TUI">TUI</a></td>
+<td><span>13.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Alstria">Alstria Office</a></td>
+<td><span>2.37%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Conergy">Conergy</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KS">K+S</a></td>
+<td><span>12.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KUKA">KUKA</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Dialog">Dialog Semiconductor</a></td>
+<td><span>1.06%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Kloeckner">Klöckner &amp; Co</a></td>
+<td><span>2.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bauer">Bauer</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Qiagen">Qiagen</a></td>
+<td><span>5.86%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HugoBoss">Hugo Boss</a></td>
+<td><span>14.97%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AlabamaGraphite">Alabama Graphite Corp. Reg. Shares o.N.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Powerland">Powerland</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ElringKlinger">ElringKlinger</a></td>
+<td><span>3.48%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/STRATECBio">STRATEC Biomedical</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MorphoSys">MorphoSys</a></td>
+<td><span>4.27%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DNB">DNB Asset Management</a></td>
+<td><span>1.31%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Starwood">Starwood Real Estate Securities</a></td>
+<td><span>1.29%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Celesio">Celesio</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Vossloh">Vossloh</a></td>
+<td><span>1.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Prelios">Prelios</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Highside">Highside Capital Management</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PineRiver">Pine River Capital Management</a></td>
+<td><span>1.23%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Salzgitter">Salzgitter</a></td>
+<td><span>4.43%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Adidas">Adidas</a></td>
+<td><span>1.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RofinSinar">Rofin-Sinar Technologies</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Symrise">Symrise</a></td>
+<td><span>2.48%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QIAGENGmbH">QIAGEN</a></td>
+<td><span>1.12%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Praktiker">Praktiker</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VTBCapitalplc">VTB Capital</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PNE">PNE Wind</a></td>
+<td><span>4.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EvotecHamburg">Evotec (Hamburg)</a></td>
+<td><span>1.16%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Balda">Balda</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MTUAeroEngines">MTU Aero Engines</a></td>
+<td><span>3.49%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Fleetmatics">Fleetmatics Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheWohnen">Deutsche Wohnen</a></td>
+<td><span>1.87%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SouthpointCapitalAd">Southpoint Capital Advisors</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Gildemeister">Gildemeister</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SouthpointCapitalLP">Southpoint Capital Advisors LP</a></td>
+<td><span>0.63%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cancom">Cancom</a></td>
+<td><span>6.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ThyssenKrupp">ThyssenKrupp</a></td>
+<td><span>4.30%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VTBCapital">VTB Capital</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bilfinger">Bilfinger</a></td>
+<td><span>1.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GerryWeber">Gerry Weber International</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RWEDea">RWE Dea</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WSManagementLLLP">WS Management, LLLP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SKWStahl-Metallurgi">SKW Stahl-Metallurgie Holding</a></td>
+<td><span>1.29%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SusquehannaInternat">Susquehanna International Holdings LLC</a></td>
+<td><span>1.92%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Kontron">Kontron</a></td>
+<td><span>5.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SUSSMicroTecREMAN">SUSS MicroTec REMAN</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Weber-Life-Style">Gerry Weber Life-Style Fashion</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LibertyGlobal">Liberty Global</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TTInternational">TT International</a></td>
+<td><span>0.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LANXESSDeutschland">LANXESS Deutschland</a></td>
+<td><span>3.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SussMicroTecLithogr">Suss MicroTec Lithography</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BaldaSolutionsDeuts">Balda Solutions Deutschland</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AxelSpringerSE">Axel Springer</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TomTailor">Tom Tailor</a></td>
+<td><span>1.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TomTailHldAG">Tom Tailor Holding AG</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cr%C3%A9ditIndustrieletC">Crédit Industriel et Commercial</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DSAM">DSAM Partners</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheBank">Deutsche Bank</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Allianz">Allianz</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/D%C3%BCrr">Dürr</a></td>
+<td><span>3.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SHW">SHW</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheLufthansa">Deutsche Lufthansa</a></td>
+<td><span>5.21%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PAION">PAION</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Manz">Manz</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HamburgerHafenundLo">Hamburger Hafen und Logistik</a></td>
+<td><span>1.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RIBSoftware">RIB Software AG</a></td>
+<td><span>2.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BilfingerAchatz">Bilfinger Achatz</a></td>
+<td><span>0.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MERRILLLYNCHINTERNA">MERRILL LYNCH INTERNATIONAL</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HAMBORNERREIT">HAMBORNER REIT</a></td>
+<td><span>1.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QSC">QSC</a></td>
+<td><span>0.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Tipp24Deutschland">Tipp24 Deutschland</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/M%C3%BCnchenerR%C3%BCckversic">Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SAP">SAP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ADVA">ADVA Optical Networking</a></td>
+<td><span>1.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BraasMonierBuilding">Braas Monier Building Group Services</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Tipp24">Tipp24</a></td>
+<td><span>0.91%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RocketInternet">Rocket Internet</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SoutpointCapitalAdv">Soutpoint Capital Advisors</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Rheinmetall">Rheinmetall</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Buwog">Buwog</a></td>
+<td><span>0.94%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HUGOBOSSVerm%C3%B6gensv">HUGO BOSS Vermögensverwaltung GmbH &amp; Co. KG</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PfeifferVacuum">Pfeiffer Vacuum</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AbengoaYield">Abengoa Yield</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CyrusOne">CyrusOne</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LANXESSAccounting">LANXESS Accounting</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TyrianInvestmentsLP">Tyrian Investments, LP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GRAMMERSolar">GRAMMER Solar</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GRAMMER">GRAMMER</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Gagfah">Gagfah</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Gerresheimer">Gerresheimer</a></td>
+<td><span>11.20%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheAnningtonIm">Deutsche Annington Immobilien</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Talanx">Talanx</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Kl%C3%B6ckner&CoDeutschl">Klöckner &amp; Co Deutschland</a></td>
+<td><span>3.34%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CATOil">CAT Oil</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AdlerRealEstate">Adler Real Estate</a></td>
+<td><span>1.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aurubis">Aurubis</a></td>
+<td><span>5.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Brunel">Brunel International</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SchaltbauHolding">Schaltbau Holding</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AirBerlinPLC&CoLuft">Air Berlin PLC &amp; Co. Luftverkehrs KG</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZEALNETWORK">ZEAL NETWORK</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SGLCarbon">SGL Carbon SE</a></td>
+<td><span>2.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HeidelbergCement">HeidelbergCement</a></td>
+<td><span>1.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GEA">GEA Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BorussiaDortmundGmb">Borussia Dortmund GmbH &amp; Co. Kommanditgesellschaft auf Aktien</a></td>
+<td><span>1.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RSPPermian">RSP Permian</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GrandCityProperty">Grand City Property</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BilfingerAhrCarecat">Bilfinger Ahr Carecatering</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DaltonStrategicPart">Dalton Strategic Partnership LLP</a></td>
+<td><span>0.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AlkenLuxembourg">Alken Luxembourg</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GFTTechnologies">GFT Technologies</a></td>
+<td><span>2.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LEGImmobilien">LEG Immobilien</a></td>
+<td><span>2.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RStahl">R. Stahl</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RiceEnergy">Rice Energy</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/iShares(DE)IInvestm">iShares (DE) I Investmentaktiengesellschaft mit Teilgesellschaftsvermögen</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ClearstreamBanking">Clearstream Banking</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DMG">DMG Mori</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NORMA">NORMA Group</a></td>
+<td><span>1.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FUCHSPETROLUB">FUCHS PETROLUB</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BASF">BASF</a></td>
+<td><span>1.05%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VTG">VTG</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bertrandt">Bertrandt</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SLMSolutions">SLM Solutions Group</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Now">Now</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FreseniusSE&CoKGaA">Fresenius SE &amp; Co. KGaA</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Zalando">Zalando</a></td>
+<td><span>8.05%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Str%C3%B6er">Ströer</a></td>
+<td><span>4.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EON">E.ON</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GrandCityProperties">Grand City Properties</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CapitalStage">Capital Stage</a></td>
+<td><span>1.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AeriePharmaceutical">Aerie Pharmaceutical</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheBankBauspar">Deutsche Bank Bauspar-Aktiengesellschaft</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EndoInternational">Endo International</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aurelius">Aurelius &amp; Co.</a></td>
+<td><span>0.87%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TrueCar">TrueCar</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SGLCarbonBeteilgn">SGL Carbon Beteiligung</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Mobileye">Mobileye</a></td>
+<td><span>0.84%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BayWa">BayWa</a></td>
+<td><span>1.44%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CHORUS">CHORUS Clean Energy</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BBBiotech">BB Biotech</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/D%C3%BCrrInternational">Dürr International</a></td>
+<td><span>1.78%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Ensco">Ensco</a></td>
+<td><span>1.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NordexEnergy">Nordex Energy</a></td>
+<td><span>1.12%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TLGIMMOBILIEN">TLG IMMOBILIEN</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Biocept">Biocept</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SuperLeagueGaming">Super League Gaming</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AchieveLifeSciences">Achieve Life Sciences</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NexaResources">Nexa Resources</a></td>
+<td><span>0.63%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/INSPIREMEDICALSYSTE">INSPIRE MEDICAL SYSTEMS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LuxorCapitalGroupLP">Luxor Capital Group, LP</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Pro7Sat1">ProSiebenSat.1</a></td>
+<td><span>4.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZurRose">Zur Rose Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PRECISIONDRILLING">PRECISION DRILLING</a></td>
+<td><span>0.97%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/freenetde">freenet.de</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutschePfandbriefb">Deutsche Pfandbriefbank</a></td>
+<td><span>7.12%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MooreEuropeCapitalM">Moore Europe Capital Management, LLP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Quigan">Quigan</a></td>
+<td><span>1.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Covestro">Covestro</a></td>
+<td><span>2.17%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AltisourcePortfolio">Altisource Portfolio Solutions</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EisenstatCapitalPar">Eisenstat Capital Partners LP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Str%C3%B6erSE&CoKGaA">Ströer SE &amp; Co. KGaA</a></td>
+<td><span>2.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LEONIKerpen">LEONI Kerpen</a></td>
+<td><span>0.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SAFHOLLANDsa">SAF-­HOLLAND</a></td>
+<td><span>1.42%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SchroderInvestmentM">Schroder Investment Management Limited</a></td>
+<td><span>0.85%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/technotrans">technotrans</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InsightInvestmentMa">Insight Investment Management (Global) Limited</a></td>
+<td><span>0.67%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Medigene">Medigene</a></td>
+<td><span>1.05%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InvescoYEN">Invesco CurrencyShares Japanese Yen Trust</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Fielmann">Fielmann</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Jungheinrich">Jungheinrich</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AureliusManagement">Aurelius Management</a></td>
+<td><span>4.27%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Uniper">Uniper</a></td>
+<td><span>1.11%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/METROWholesale&Food">METRO Wholesale &amp; Food Specialist</a></td>
+<td><span>3.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WCMBeteiligungs-und">WCM Beteiligungs- und Grundbesitz-Aktiengesellschaft</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EONUSHolding">E.ON US Holding</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DrillischOnline">Drillisch Online</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LIONE-Mobility">LION E-Mobility</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ams">ams</a></td>
+<td><span>1.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/amsAT">ams AT</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Telef%C3%B3nicaDeutschla">Telefónica Deutschland Holding</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TybourneEquityMaste">Tybourne Equity Master Fund</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BilfingerCorporateR">Bilfinger Corporate Real Estate Management</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SGLCarbonGmbH">SGL Carbon GmbH</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Sch%C3%B6n&Cie">Schön &amp; Cie</a></td>
+<td><span>0.73%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/publity">publity</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PATRIZIAImmobilien">PATRIZIA Immobilien</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TomTailorHldSE">Tom Tailor Holding SE</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EvonikIndustries">Evonik Industries</a></td>
+<td><span>4.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MERCKKommanditgesel">MERCK Kommanditgesellschaft auf Aktien</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LifeStorage">Life Storage</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/S&T">S&amp;T</a></td>
+<td><span>6.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/paragon">paragon</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Vonovia">Vonovia</a></td>
+<td><span>1.08%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BertrandtFahrerprob">Bertrandt Fahrerprobung Süd</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ShopApothekeEurope">Shop Apotheke Europe</a></td>
+<td><span>6.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CTSEventim">CTS Eventim AG &amp; Co. KGaA</a></td>
+<td><span>4.78%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KRONES">KRONES</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GerresheimerWerthm">Gerresheimer Wertheim</a></td>
+<td><span>1.73%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SelectEnergyService">Select Energy Services</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/S%C3%BCdzuckerHolding">Südzucker Holding</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DEAG">DEAG Deutsche Entertainment</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/bet-at-homecom">bet-at-home.com</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SynergyResourcesCor">Synergy Resources Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TeleColumbus">Tele Columbus</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AcaciaCommunication">Acacia Communications</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DreamGlobal">Dream Global REIT</a></td>
+<td><span>0.81%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Sixt">Sixt</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZealNetworks">Zeal Networks</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Biotest">Biotest</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ChicagoBridge&Iron">Chicago Bridge &amp; Iron</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AureliusEquity">Aurelius Equity Opportunities &amp; Co.</a></td>
+<td><span>1.40%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ChicagoBridge&IronC">Chicago Bridge &amp; Iron Company</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FerratumCapitalGerm">Ferratum Capital Germany</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Clere">Clere</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Steinhoff">Steinhoff International Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HypoportAG">Hypoport AG</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Sartorius">Sartorius</a></td>
+<td><span>1.97%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Koenig&Bauer">Koenig &amp; Bauer</a></td>
+<td><span>0.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PrecisionDrillingCo">Precision Drilling Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/S%C3%9CSSMicroTec">SÜSS MicroTec</a></td>
+<td><span>1.85%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/va-Q-tec">va-Q-tec</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Ceconomy">Ceconomy</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RIBSoftwareSE">RIB Software SE</a></td>
+<td><span>3.36%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SchneiderNeurAG">SNP Schneider-Neureither &amp; Partner</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Leifheit">Leifheit</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FrontierTelecommuni">Frontier Telecommunication Corporation</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CorestateCapital">Corestate Capital</a></td>
+<td><span>1.95%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AmericanOutdoorBran">American Outdoor Brands Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FrontierCommunicati">Frontier Communications Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/elfBeauty">e.l.f. Beauty</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aumann">Aumann</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Voltabox">Voltabox</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Nutanix">Nutanix</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutschePost">Deutsche Post</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HelloFreshDEMnt">HelloFresh Deutschland Management</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Linde">Linde</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Kion">Kion Group</a></td>
+<td><span>4.02%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/windelnde">windeln.de</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CentrotecSustainabl">Centrotec Sustainable</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HypoportSystems">Hypoport Systems</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GerresheimerGrp">Gerresheimer Group</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EnvisionHealthcare">Envision Healthcare</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SixtLeasing">Sixt Leasing</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WirecardRetailServi">Wirecard Retail Services</a></td>
+<td><span>0.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/UniperRiskConsultin">Uniper Risk Consulting</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HelloFreshDE">HelloFresh Deutschland SE &amp; Co. KG</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZalandoOperations">Zalando Operations</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GranitePointMortgag">Granite Point Mortgage Trust</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PVATePla">PVA TePla</a></td>
+<td><span>4.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WillisTowersWatsonP">Willis Towers Watson Public Limited Company</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JOHNSONCONTROLSINTE">JOHNSON CONTROLS INTERNATIONAL</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QIAGENLakeConstance">QIAGEN Lake Constance</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HertzGlobalHoldings">Hertz Global Holdings</a></td>
+<td><span>1.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SigmaHealthcareLimi">Sigma Healthcare Limited</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cleveland-Cliffs">Cleveland-Cliffs</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IMPINJ">IMPINJ</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AnaptysBio">AnaptysBio</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TheTradeDesk">The Trade Desk</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TheMeet">The Meet Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HR">HR</a></td>
+<td><span>0.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HealthInsuranceInno">Health Insurance Innovations</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Siemens">Siemens</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bayer">Bayer</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RestorationHardware">Restoration Hardware Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Daimler">Daimler</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SigmaHealthcare">Sigma Healthcare</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QIAGENDeutschlandHo">QIAGEN Deutschland Holding</a></td>
+<td><span>0.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheTelekom">Deutsche Telekom</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MadrigalPharmaceuti">Madrigal Pharmaceuticals</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IchorHoldings">Ichor Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AdoProperties">Ado Properties</a></td>
+<td><span>1.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AlcoaCorporation">Alcoa Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JanusHenderson">Janus Henderson Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Alcoa">Alcoa Corp</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Siltronic">Siltronic</a></td>
+<td><span>7.73%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aroundtown">Aroundtown</a></td>
+<td><span>4.21%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Carscom">Cars.com</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Uniti">Uniti Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BayerischeMotorenWe">Bayerische Motoren Werke</a></td>
+<td><span>2.29%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Adient">Adient</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/U-BLOXHOLDING">U-BLOX HOLDING</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WestJetAirlines">WestJet Airlines</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QualityCareProperti">Quality Care Properties</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TAG1NRW-Immobilien">TAG 1. NRW-Immobilien</a></td>
+<td><span>0.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PTTELEKOMUNIKASI">PT TELEKOMUNIKASI</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PUMA">PUMA</a></td>
+<td><span>6.42%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AarealBeteiligungen">Aareal Beteiligungen</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InvescoDBAgricultur">Invesco DB Agriculture Fund</a></td>
+<td><span>1.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SchneiderNeurSE">SNP Schneider-Neureither &amp; Partner</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Optinose">Optinose</a></td>
+<td><span>1.14%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InstoneRealEstate">Instone Real Estate Group</a></td>
+<td><span>1.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AmnealPharma">Amneal Pharmaceuticals</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Landis&Gyr">Landis &amp; Gyr Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Encavis">Encavis</a></td>
+<td><span>2.92%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AvadelPharmaceutica">Avadel Pharmaceuticals</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Immofinanz">Immofinanz</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Axactor">Axactor</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WashTec">WashTec</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PANTAFLIX">PANTAFLIX</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SalariusPharmaceuti">Salarius Pharmaceuticals</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HelloFresh">HelloFresh</a></td>
+<td><span>12.36%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DieboldNixdorf">Diebold Nixdorf</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RATIONAL">RATIONAL</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Schaeffler">Schaeffler</a></td>
+<td><span>2.29%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ConsusRealEstate">Consus Real Estate</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CelldexTherapeutics">Celldex Therapeutics</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InstoneRealEstateAG">Instone Real Estate Group</a></td>
+<td><span>2.96%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeliveryHero">Delivery Hero</a></td>
+<td><span>6.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Docusign">Docusign</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HighpointResource">Highpoint Resource</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JOSTWerke">JOST Werke</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Talend">Talend</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CeconomyRetail">Ceconomy Retail</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/1&1Drillisch">1&amp;1 Drillisch</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cardlytics">Cardlytics</a></td>
+<td><span>4.63%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Grenke">Grenke</a></td>
+<td><span>1.31%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeutscheB%C3%B6rse">Deutsche Börse</a></td>
+<td><span>1.40%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LindePublicLimitedC">Linde Public Limited Company</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Vivus">Vivus</a></td>
+<td><span>0.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ParkerDrillingCo">Parker Drilling Co.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RedViolet">Red Violet</a></td>
+<td><span>0.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Curis">Curis</a></td>
+<td><span>1.44%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Continental">Continental</a></td>
+<td><span>1.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/COSMOPharmaceutical">COSMO Pharmaceuticals</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/amsSensorsGermany">ams Sensors Germany</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Highpoint">Highpoint Resource (new shares)</a></td>
+<td><span>1.03%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FielmannAG&CooHG">Fielmann AG &amp; Co. oHG</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AytuBioScience">Aytu BioScience</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TransaltaCorp">Transalta Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EvotecSE">Evotec</a></td>
+<td><span>7.42%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EnscoRowan">Ensco Rowan</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Advaxis">Advaxis</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CatabasisPharmaceut">Catabasis Pharmaceuticals</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TronoxHoldings">Tronox Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RiteAidCorporation">Rite Aid Corporation</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Knorr-Bremse">Knorr-Bremse</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RiteAidCorp">Rite Aid Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cyan">Cyan</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BlueApronHoldings">Blue Apron Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Francescas">Francesca`s</a></td>
+<td><span>1.12%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SchaefflerTechnolog">Schaeffler Technologies AG &amp; Co. KG</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CassavaSciences">Cassava Sciences</a></td>
+<td><span>0.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ThyssenKruppAufzugs">ThyssenKrupp Aufzugswerke</a></td>
+<td><span>2.67%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AdlerREService">Adler Real Estate Service</a></td>
+<td><span>0.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ISRAVISION">ISRA VISION</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RegulusTherapeutics">Regulus Therapeutics</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WackerNeuson">Wacker Neuson</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WaitrHoldings">Waitr Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/McDermottInternatio">McDermott International</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Scout24">Scout24</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DouYuInternationalH">DouYu International Holdings</a></td>
+<td><span>1.15%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Babcock&WilcoxEnter">Babcock &amp; Wilcox Enterprises</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PyxusInternational">Pyxus International</a></td>
+<td><span>1.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OnconovaTherapeutic">Onconova Therapeutics</a></td>
+<td><span>2.67%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/D%C3%BCrrSystems">Dürr Systems</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NIO">NIO</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Daseke">Daseke</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TeleColumbusKabelSe">Tele Columbus Kabel Service</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HUYA">HUYA</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TetraphasePharmaceu">Tetraphase Pharmaceuticals</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/flatex">flatex</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Stabilus">Stabilus</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CorestateCapitalHol">Corestate Capital Holding</a></td>
+<td><span>2.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EyePointPharmaceuti">EyePoint Pharmaceuticals</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BluelinxHldgs">Bluelinx Hldgs</a></td>
+<td><span>1.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InvescoDWATechnolog">Invesco DWA Technology Momentum ETF</a></td>
+<td><span>1.94%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RTL">RTL GROUP</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LiventCorp">Livent Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/US74737V1061">US74737V1061</a></td>
+<td><span>1.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JinkoSolarHoldingCo">JinkoSolar Holding Co</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SELLASLifeSciences">SELLAS Life Sciences Group</a></td>
+<td><span>2.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ChaparralEnergy">Chaparral Energy</a></td>
+<td><span>1.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LiqTechInternationa">LiqTech International</a></td>
+<td><span>1.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InvescoS&P500HighBe">Invesco S&amp;P 500 High Beta ETF</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DesignerBrands">Designer Brands</a></td>
+<td><span>1.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InvescoGBP">Invesco CurrencyShares British Pound Sterling Trust</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cimpress">Cimpress</a></td>
+<td><span>3.02%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HenkelAG&CoKGaA">Henkel AG &amp; Co. KGaA</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CimpressDeutschland">Cimpress Deutschland</a></td>
+<td><span>2.28%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bobst">Bobst Group</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Beiersdorf">Beiersdorf</a></td>
+<td><span>1.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VARTA">VARTA</a></td>
+<td><span>3.05%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CarlZeissMeditec">Carl Zeiss Meditec</a></td>
+<td><span>2.32%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FourWorldCapitalMan">FourWorld Capital Management</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VARTAMicrobattery">VARTA Microbattery</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BellicumPharmaceuti">Bellicum Pharmaceuticals</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EPRPROPERTIES">EPR PROPERTIES</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CovestroDeutschland">Covestro Deutschland</a></td>
+<td><span>2.91%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/UnitedStates">United States</a></td>
+<td><span>2.02%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PhaseBioPharmaceuti">PhaseBio Pharmaceuticals</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HELLAGmbH&CoKGaA">HELLA GmbH &amp; Co. KGaA</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Nemetschek">Nemetschek</a></td>
+<td><span>1.35%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Idorsia">Idorsia</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ArconicCorporation">Arconic Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Criteo">Criteo</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NewWork">New Work</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MetroSB-Gro%C3%9Fm%C3%A4rkteG">Metro SB-Großmärkte GmbH &amp; Co. Kommanditgesellschaft</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CorestateCapitalAdv">Corestate Capital Advisors</a></td>
+<td><span>0.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SPOTIFYTECHNOLOGY">SPOTIFY TECHNOLOGY</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Brenntag">Brenntag</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aon">Aon</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Corestate">Corestate Capital Holding</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MILLICOMINTERNATION">MILLICOM INTERNATIONAL CELLULAR</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SAF-HOLLAND">SAF-HOLLAND</a></td>
+<td><span>1.48%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Sprott">Sprott</a></td>
+<td><span>2.30%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Befesa">Befesa</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LuckinCoffee">Luckin Coffee</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LOOMISAB-B">LOOMIS AB-B</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LexinFintechHolding">LexinFintech Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Groupon">Groupon</a></td>
+<td><span>3.02%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NaborsIndustries">Nabors Industries</a></td>
+<td><span>0.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MTUMaintenanceHanno">MTU Maintenance Hannover</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ContinentaleHolding">Continentale Holding</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DUFRY">DUFRY</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Sohucom">Sohu.com</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LOOMIS">LOOMIS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/METROAdvertising">METRO Advertising</a></td>
+<td><span>1.02%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BasileaPharmaceutic">Basilea Pharmaceutica</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NeptuneWellnessSolu">Neptune Wellness Solutions</a></td>
+<td><span>2.11%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CreditCorp">Credit Corp Group</a></td>
+<td><span>0.73%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ExchangeIncomeCorpo">Exchange Income Corporation</a></td>
+<td><span>2.17%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Extendicare">Extendicare</a></td>
+<td><span>4.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Stingray">Stingray Group</a></td>
+<td><span>2.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ElevaCapital">Eleva Capital</a></td>
+<td><span>0.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BechtleFinancialSer">Bechtle Financial Services</a></td>
+<td><span>2.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/iClickInteractiveAs">iClick Interactive Asia Group</a></td>
+<td><span>0.95%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Mynaric">Mynaric</a></td>
+<td><span>1.37%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NiuTechnologies">Niu Technologies</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QIWI">QIWI</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Allgeier">Allgeier</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FUTURE">FUTURE</a></td>
+<td><span>7.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Trainline">Trainline</a></td>
+<td><span>3.84%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/UDGHealthcare">UDG Healthcare</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NETWORKINTERNATIONA">NETWORK INTERNATIONAL HOLDINGS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Smith(DS)">Smith (DS)</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JENOPTIK">JENOPTIK</a></td>
+<td><span>1.96%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Antelope">Antelope Enterprise Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CompassPathways">Compass Pathways</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LESLIE'S">LESLIE&#39;S</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Whitbread">Whitbread</a></td>
+<td><span>0.67%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IGNIS">IGNIS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PetrofacLimited">Petrofac Limited</a></td>
+<td><span>0.93%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TRITERRAS">TRITERRAS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Petrofac">Petrofac</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MITSUBISHIKAKOKIKAI">MITSUBISHI KAKOKI KAISHA</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AutoTrader">Auto Trader Group</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Morrison(Wm)Superma">Morrison (Wm.) Supermarkets</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FEDERALREALTYINVEST">FEDERAL REALTY INVESTMENT TRUST</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TRAVERETHERAPEUTICS">TRAVERE THERAPEUTICS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ApartmentInvestment">Apartment Investment and Management Company</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VIPERENERGYPARTNERS">VIPER ENERGY PARTNERS LP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ams-OSRAMInternatio">ams-OSRAM International</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Deliveroo">Deliveroo</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WNS(HOLDINGS)LIMITE">WNS (HOLDINGS) LIMITED</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TullowOil">Tullow Oil</a></td>
+<td><span>1.55%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/home24">home24 SE</a></td>
+<td><span>3.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AYRWellness">AYR Wellness</a></td>
+<td><span>0.84%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SHIFTTECHNOLOGIES">SHIFT TECHNOLOGIES</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AppHarvest">AppHarvest</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NIPPONDENKOCO">NIPPON DENKO CO</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VYNETHERAPEUTICS">VYNE THERAPEUTICS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GASLOGPARTNERSLP">GASLOG PARTNERS LP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BeamGlobal">Beam Global</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MEDPEER">MEDPEER</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FLATGLASSGROUPCO">FLAT GLASS GROUP CO</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Verbio">VERBIO Vereinigte BioEnergie</a></td>
+<td><span>1.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ChurchillCapitalIV">Churchill Capital Corp IV</a></td>
+<td><span>0.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/STRATEC">STRATEC</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OAKSTREETHEALTH">OAK STREET HEALTH</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GlobalFashion">Global Fashion Group</a></td>
+<td><span>1.86%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SagaCommunications">Saga Communications</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SMILEDIRECTCLUB">SMILEDIRECTCLUB</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QUALTRICSINTERNATIO">QUALTRICS INTERNATIONAL</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Churchillcapital">Churchill capital</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NisshaCo">Nissha Co</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Upwork">Upwork</a></td>
+<td><span>0.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SFCEnergy">SFC Energy</a></td>
+<td><span>1.23%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NakedBrand">Naked Brand Group</a></td>
+<td><span>0.63%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LEONIKabel">LEONI Kabel</a></td>
+<td><span>1.08%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TattooedChef">Tattooed Chef</a></td>
+<td><span>1.04%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/O2Telef%C3%B3nicaDeutsc">O2 Telefónica Deutschland Finanzierungs</a></td>
+<td><span>1.40%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Novan">Novan</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZalandoCustomerCare">Zalando Customer Care DACH SE &amp; Co. KG</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TeamViewerGermany">TeamViewer Germany</a></td>
+<td><span>1.84%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SHOPAPOTHEKESERVICE">SHOP APOTHEKE SERVICE</a></td>
+<td><span>1.37%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CliqDigital">Cliq Digital</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Westwing">Westwing Group AG</a></td>
+<td><span>1.93%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FREYRBATTERY">FREYR BATTERY</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AshfordHospitalityT">Ashford Hospitality Trust</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Confluent">Confluent</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SHOPAPOTHEKE">SHOP APOTHEKE</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Adler">Adler Group</a></td>
+<td><span>2.95%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MetaMaterials">Meta Materials</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/STEVANATO">STEVANATO GROUP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GaotuTechedu">Gaotu Techedu</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ForesightAutonomous">Foresight Autonomous Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/StarBulkCarriers">Star Bulk Carriers</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Zymergen">Zymergen</a></td>
+<td><span>0.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Alder">Alder Group</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Eckert&ZieglerStrah">Eckert &amp; Ziegler Strahlen- und Medizintechnik</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/foxe-mobility">fox e-mobility</a></td>
+<td><span>4.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TheGlimpse">The Glimpse Group</a></td>
+<td><span>0.89%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Couchbase">Couchbase</a></td>
+<td><span>0.81%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JaguarHealth">Jaguar Health</a></td>
+<td><span>1.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/UpFintechHolding">Up Fintech Holding</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JOYY">JOYY</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DaqoNewEnergyCorp">Daqo New Energy Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JACKSONFINANCIAL">JACKSON FINANCIAL</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/21Vianet">21Vianet Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/iQIYI">iQIYI</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BorussiaDortmundGes">Borussia Dortmund Geschäftsführungs-</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SYNLAB">SYNLAB</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PORCH">PORCH GROUP</a></td>
+<td><span>2.48%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NordexGermany">Nordex Germany</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/flatexDEGIRO">flatexDEGIRO</a></td>
+<td><span>1.23%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NordexBelgium">Nordex Belgium</a></td>
+<td><span>0.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Electrolux">Electrolux</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EXASOL">EXASOL</a></td>
+<td><span>1.22%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InstoneRealEstateSE">Instone Real Estate Group</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CeconomyDigital">Ceconomy Digital</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MutaresSE&CoKGaA">Mutares SE &amp; Co. KGaA</a></td>
+<td><span>2.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DreamOfficeRealEsta">Dream Office Real Estate Investment Trust</a></td>
+<td><span>0.90%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SesenBio">Sesen Bio</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/fashionette">fashionette</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/S&TDeutschland">S&amp;T Deutschland</a></td>
+<td><span>1.18%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DigihostTechnology">Digihost Technology</a></td>
+<td><span>1.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VitescoTechnologies">Vitesco Technologies Group</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CompleoChargingSolu">Compleo Charging Solutions</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Lang&Schwarz">Lang &amp; Schwarz</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KYNDRYLHOLDINGS">KYNDRYL HOLDINGS</a></td>
+<td><span>1.08%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SiemensEnergyGlobal">Siemens Energy Global GmbH &amp; Co. KG</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/STANDARDLITHIUM">STANDARD LITHIUM</a></td>
+<td><span>1.26%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LIFETECHSCIENTIFICC">LIFETECH SCIENTIFIC CORP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VirginGalacticHoldi">Virgin Galactic Holdings</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DanimerScientific">Danimer Scientific</a></td>
+<td><span>1.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SiemensEnergy">Siemens Energy</a></td>
+<td><span>4.25%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NorthernData">Northern Data</a></td>
+<td><span>1.21%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TPG">TPG</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EvonikVentureCapita">Evonik Venture Capital</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Toast">Toast</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Nagarro">Nagarro</a></td>
+<td><span>2.40%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CenntroElectricGrou">Cenntro Electric Group Limited</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/home24AG">home24 AG</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WestwingSE">Westwing Group SE</a></td>
+<td><span>1.18%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WIENERBERGER">WIENERBERGER</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Xometry">Xometry</a></td>
+<td><span>1.17%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Mercedes-Benz">Mercedes-Benz Group</a></td>
+<td><span>1.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PictetAssetManageme">Pictet Asset Management</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DefinityFinancialCo">Definity Financial Corp</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Braze">Braze</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CoreScientific">Core Scientific</a></td>
+<td><span>1.20%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AUTO1">AUTO1 Group</a></td>
+<td><span>7.29%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Hypoport">Hypoport SE</a></td>
+<td><span>4.49%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LAZARD">LAZARD</a></td>
+<td><span>1.18%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ESABCorporation">ESAB Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Chargepoint">Chargepoints Holdings</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZaiLab">Zai Lab</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bike24Holding">Bike24 Holding</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LufthansaTechnik">Lufthansa Technik</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EBET">EBET</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DaimlerTruckHolding">Daimler Truck Holding</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/THG">THG</a></td>
+<td><span>1.90%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Draftkings">Draftkings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Hexatronic">Hexatronic Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HiveBlockchainTechn">Hive Blockchain Technologies</a></td>
+<td><span>2.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CryoPort">CryoPort</a></td>
+<td><span>1.19%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Enviva">Enviva</a></td>
+<td><span>1.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PolarAssetManagemen">Polar Asset Management Partners</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HeidelbergerDruckma">Heidelberger Druckmaschinen Intellectual Property AG &amp; Co. KG</a></td>
+<td><span>0.55%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Adtran">Adtran Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EinhellGermany">Einhell Germany</a></td>
+<td><span>0.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LANXESSMiddleEast">LANXESS Middle East</a></td>
+<td><span>0.91%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PorscheAutomobilHol">Porsche Automobil Holding</a></td>
+<td><span>1.30%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PermianResourcesCor">Permian Resources Corporation</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PETRONOREANDPASA">PETRONOR E AND P ASA</a></td>
+<td><span>6.05%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MindMedicine(MindMe">Mind Medicine (MindMed)</a></td>
+<td><span>1.21%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HallofFameResort&En">Hall of Fame Resort &amp; Entertainment Company</a></td>
+<td><span>0.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TOPShips">TOP Ships</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SectraAktiebolag">Sectra Aktiebolag</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EnovixCorporation">Enovix Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/adesso">adesso</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LEGImmobilienSE">LEG Immobilien</a></td>
+<td><span>4.91%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SiemensHealthineers">Siemens Healthineers</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BrenntagSE">Brenntag</a></td>
+<td><span>1.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BEFESA">BEFESA</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/5EAdvancedMaterials">5E Advanced Materials</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ENHABIT">ENHABIT</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CamberEnergy">Camber Energy</a></td>
+<td><span>5.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CellImpact">Cell Impact</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LibertyGlobal">Liberty Global</a></td>
+<td><span>1.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OLINKHOLDING">OLINK HOLDING</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OptimaHealthGroupLi">Optima Health Group Limited</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LANNETTCOMPANY">LANNETT COMPANY</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FriedrichVorwerk">Friedrich Vorwerk Group</a></td>
+<td><span>2.92%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FRONTLINE">FRONTLINE</a></td>
+<td><span>2.33%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bitfarms">Bitfarms</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BOLIDEN">BOLIDEN</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SeadrillLimited">Seadrill Limited</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Scout24">Scout24</a></td>
+<td><span>5.55%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DISCOCorporation">DISCO Corporation</a></td>
+<td><span>1.31%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AdlerProperties">Adler Properties</a></td>
+<td><span>0.90%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/T&DHoldings">T&amp;D Holdings</a></td>
+<td><span>1.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TeleflexIncorporate">Teleflex Incorporated</a></td>
+<td><span>1.94%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Allegion">Allegion</a></td>
+<td><span>0.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AGC">AGC</a></td>
+<td><span>1.31%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VailResorts">Vail Resorts</a></td>
+<td><span>1.47%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VoyaFinancial">Voya Financial</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MacnicaHoldings">Macnica Holdings</a></td>
+<td><span>1.21%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Evergy">Evergy</a></td>
+<td><span>0.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JupiterFundManageme">Jupiter Fund Management</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ArgonautCapitalPart">Argonaut Capital Partners LLP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KeioCorporation">Keio Corporation</a></td>
+<td><span>1.21%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ContextLogic">ContextLogic</a></td>
+<td><span>1.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BayWare">BayWa r.e.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AroundtownPropertie">Aroundtown Properties</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TeamViewer">TeamViewer</a></td>
+<td><span>5.28%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NorthernTrustCorpor">Northern Trust Corporation</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PredictiveOncology">Predictive Oncology</a></td>
+<td><span>1.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BroadridgeFinancial">Broadridge Financial Solutions</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VBIVaccines">VBI Vaccines</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InvescoMortgageCapi">Invesco Mortgage Capital</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MULLENAUTOMOTIVE">MULLEN AUTOMOTIVE</a></td>
+<td><span>1.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RepublicFirstBancor">Republic First Bancorp</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AppleInternationalC">Apple International Co.</a></td>
+<td><span>1.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GranTierraEnergy">Gran Tierra Energy</a></td>
+<td><span>0.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LPKFLaser&Electroni">LPKF Laser &amp; Electronics</a></td>
+<td><span>2.40%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ElmosSemiconductor">Elmos Semiconductor</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Mallinckrodt">Mallinckrodt</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/K+SMineralsandAgric">K+S Minerals and Agriculture</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CineverseCorp">Cineverse Corp.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Arrival">Arrival</a></td>
+<td><span>2.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RedcarePharmacy">Redcare Pharmacy</a></td>
+<td><span>10.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AdriaticMetals">Adriatic Metals</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EASTERLYGOVERNMENTP">EASTERLY GOVERNMENT PROPERTIES</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FortreaHoldings">Fortrea Holdings</a></td>
+<td><span>0.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Basler">Basler</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RedcarePharmacy">Redcare Pharmacy</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AultAlliance">Ault Alliance</a></td>
+<td><span>2.07%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/US09175M4087">US09175M4087</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AssertioHoldings">Assertio Holdings</a></td>
+<td><span>0.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BionanoGenomics">Bionano Genomics</a></td>
+<td><span>4.40%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Biolase">Biolase</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Sinclair">Sinclair</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AtlantaBravesHoldin">Atlanta Braves Holdings</a></td>
+<td><span>1.11%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SiemensEnergyPowerC">Siemens Energy Power Control</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AMCENTERTAINMENTHOL">AMC ENTERTAINMENT HOLDINGS</a></td>
+<td><span>0.84%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Express">Express</a></td>
+<td><span>0.97%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HeliusMedicalTechno">Helius Medical Technologies</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FaradayFutureIntell">Faraday Future Intelligent Electric</a></td>
+<td><span>0.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EnergousCorp">Energous Corp</a></td>
+<td><span>1.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ToroCorp">Toro Corp</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FerrotecHoldingsCor">Ferrotec Holdings Corporation</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JBGSMITHPROPERTIES">JBG SMITH PROPERTIES</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BIRKENSTOCKHOLDING">BIRKENSTOCK HOLDING</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MuralOncology">Mural Oncology</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cleanspark">Cleanspark</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RuralFunds">Rural Funds Group</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CHOCOLADEFABRIKENLI">CHOCOLADEFABRIKEN LINDT</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Synthomer(UK)">Synthomer (UK)</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VeritionMulti-Strat">Verition Multi-Strategy Master Fund Limited</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CenovusEnergyIncAlb">Cenovus Energy Inc/Alberta</a></td>
+<td><span>0.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CenovusEnergy">Cenovus Energy</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BRANICKS">BRANICKS Group</a></td>
+<td><span>1.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/INDUSHolding">INDUS Holding</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MuralOncologyPublic">Mural Oncology Public Limited Company</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MURALONCOLOGY">MURAL ONCOLOGY</a></td>
+<td><span>2.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VIRNETXHOLDINGCORPO">VIRNETX HOLDING CORPORATION</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RenewableJapanCo">Renewable Japan Co.</a></td>
+<td><span>0.63%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MuralOncology">Mural Oncology</a></td>
+<td><span>0.96%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FVCBANKCORP">FVCBANKCORP</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ArcadiumLithium">Arcadium Lithium</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FreyrBattery">Freyr Battery</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AscendisPharmaAS">Ascendis Pharma A/S</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FreseniusMedicalCar">Fresenius Medical Care</a></td>
+<td><span>3.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DIVERSIFIEDENERGYCO">DIVERSIFIED ENERGY COMPANY</a></td>
+<td><span>3.08%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Verbio">Verbio</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CONTANGOORE">CONTANGO ORE</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PUMAEurope">PUMA Europe</a></td>
+<td><span>1.39%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AutolusTherapeutics">Autolus Therapeutics</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Nagarro">Nagarro</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CUSTODIANPROPERTYIN">CUSTODIAN PROPERTY INCOME REIT</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SphereEntertainment">Sphere Entertainment Co</a></td>
+<td><span>1.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CalampCorp">Calamp Corp.</a></td>
+<td><span>1.20%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RocketLabUSA">Rocket Lab USA</a></td>
+<td><span>2.11%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SPHEREENTERTAINMENT">SPHERE ENTERTAINMENT COMPANY</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HENSOLDT">HENSOLDT</a></td>
+<td><span>3.07%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CompuGroupMedicalSE">CompuGroup Medical SE &amp; Co. KGaA</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AgEagleAerialSystem">AgEagle Aerial Systems</a></td>
+<td><span>1.20%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AlaunosTherapeutics">Alaunos Therapeutics</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AURORACANNABIS">AURORA CANNABIS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RheinmetallAutomoti">Rheinmetall Automotive</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VARTA-F%C3%BChrer">VARTA-Führer</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ActusRayPartnersLim">ActusRayPartners Limited</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Scout24Beteiligungs">Scout24 Beteiligungs</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EmcoreCorp">Emcore Corp</a></td>
+<td><span>1.20%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DiversifiedHealthca">Diversified Healthcare Trust</a></td>
+<td><span>1.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RENK">RENK Group</a></td>
+<td><span>5.15%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MPMATERIALSCORP">MP MATERIALS CORP</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MPMaterials">MP Materials</a></td>
+<td><span>1.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VOLVOCAR">VOLVO CAR</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Agenus">Agenus</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NRXPharmaceuticals">NRX Pharmaceuticals</a></td>
+<td><span>0.55%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WolfspeedIncorporat">Wolfspeed Incorporated</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/thyssenkruppnuceraA">thyssenkrupp nucera AG &amp; Co. KGaA</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/XTIAerospace">XTI Aerospace</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HANNONARMSTRONGSUST">HANNON ARMSTRONG SUSTAINABLE INFRASTRUCTURE CAPITAL</a></td>
+<td><span>1.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SCHOTTPharmaAG&CoKG">SCHOTT Pharma AG &amp; Co. KGaA</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OutlookTherapeutics">Outlook Therapeutics</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Auto1com">Auto1.com</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TRYT">TRYT</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Silvaco">Silvaco Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Kinnevik">Kinnevik</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DesktopMetal">Desktop Metal</a></td>
+<td><span>0.87%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TheGoldmanSachs">The Goldman Sachs Group</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HeidelbergMaterials">Heidelberg Materials</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Stabilus">Stabilus</a></td>
+<td><span>1.31%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CartesianTherapeuti">Cartesian Therapeutics</a></td>
+<td><span>0.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RaspberryPIHoldings">Raspberry PI Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CANOO">CANOO</a></td>
+<td><span>0.66%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RepayHoldingsCorp">Repay Holdings Corp</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FortunaMiningCorp">Fortuna Mining Corp</a></td>
+<td><span>0.81%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WalleyeCapitalLLC">Walleye Capital LLC</a></td>
+<td><span>0.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BayerWeimarGmbHundC">Bayer Weimar GmbH und Co. KG</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/2U">2U</a></td>
+<td><span>0.75%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MeyerBurgerTechnolo">Meyer Burger Technology</a></td>
+<td><span>1.15%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VARTAMicroProductio">VARTA Micro Production</a></td>
+<td><span>1.18%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PetValuHoldings">Pet Valu Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Phunware">Phunware</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NeurenPharmaceutica">Neuren Pharmaceuticals Limited</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LITALICO">LITALICO</a></td>
+<td><span>0.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MEYERBURGERN">MEYER BURGER N</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Wolfspeed">Wolfspeed</a></td>
+<td><span>6.04%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Medios">Medios</a></td>
+<td><span>1.30%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BechtleClouds">Bechtle Clouds</a></td>
+<td><span>0.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TriplePointVentureG">TriplePoint Venture Growth BDC Corp.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NeurenPharmaceutica">Neuren Pharmaceuticals</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WNSHoldings">WNS Holdings</a></td>
+<td><span>0.97%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AlzamendNeuro">Alzamend Neuro</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NEWYORKCOMMUNITYBAN">NEW YORK COMMUNITY BANCORP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SUSSMicroTec">SUSS MicroTec</a></td>
+<td><span>2.31%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ContainerStore">Container Store Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MegaMatrix">Mega Matrix</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SiriusXMHoldings">Sirius XM Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NomuraMicroScienceC">Nomura Micro Science Co</a></td>
+<td><span>4.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DRIL-QUIP">DRIL-QUIP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HASustainableInfras">HA Sustainable Infrastructure Capital</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BioraTherapeutics">Biora Therapeutics</a></td>
+<td><span>0.89%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Yamashin-FilterCorp">Yamashin-Filter Corp</a></td>
+<td><span>0.94%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TERAWULF">TERAWULF</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SuperMicroComputer">Super Micro Computer</a></td>
+<td><span>2.17%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cybin">Cybin</a></td>
+<td><span>0.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Allbirds">Allbirds</a></td>
+<td><span>1.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InnovexInternationa">Innovex International</a></td>
+<td><span>0.93%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AppliedDigitalCorp">Applied Digital Corp</a></td>
+<td><span>3.66%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AppliedBlockchain">Applied Blockchain</a></td>
+<td><span>0.90%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AquaMetals">Aqua Metals</a></td>
+<td><span>1.16%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AppliedDigitalCorpo">Applied Digital Corporation</a></td>
+<td><span>1.21%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AMADEUSFIRE">AMADEUS FIRE</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WhiteboxAdvisors">Whitebox Advisors</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QuantumCorp">Quantum Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AppliedDigital">Applied Digital</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KnausTabbert">Knaus Tabbert</a></td>
+<td><span>0.93%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BitdeerTechnologies">Bitdeer Technologies Group</a></td>
+<td><span>4.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BitdeerTechnologies">Bitdeer Technologies Holding Co</a></td>
+<td><span>1.37%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BITDEERTECHNOLOGIES">BITDEER TECHNOLOGIES GROUP</a></td>
+<td><span>4.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RecursionPharmaceut">Recursion Pharmaceuticals</a></td>
+<td><span>3.25%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RecursionPharmaceut">Recursion Pharmaceuticals</a></td>
+<td><span>2.30%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CitiusPharmaceutica">Citius Pharmaceuticals</a></td>
+<td><span>1.14%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Revelyst">Revelyst</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LuminarTechnologies">Luminar Technologies</a></td>
+<td><span>3.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/REVELYST">REVELYST</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FTCSOLAR">FTC SOLAR</a></td>
+<td><span>1.23%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BayWaAgrarhandel">BayWa Agrarhandel</a></td>
+<td><span>0.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LuminarTechnologies">Luminar Technologies</a></td>
+<td><span>1.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LotusResources">Lotus Resources</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ServicePropertiesTr">Service Properties Trust</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ARMOURRESIDENTIALRE">ARMOUR RESIDENTIAL REIT</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FluenceEnergy">Fluence Energy</a></td>
+<td><span>1.03%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LuminarTechnolgies">Luminar Technolgies</a></td>
+<td><span>2.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BluebirdBio">Bluebird Bio</a></td>
+<td><span>2.83%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bluebirdbio">Bluebird bio</a></td>
+<td><span>2.83%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bitcoin">Bitcoin Group</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AptivIrishHoldings">Aptiv Irish Holdings</a></td>
+<td><span>1.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aptiv">Aptiv</a></td>
+<td><span>1.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RedcarePharamacy">Redcare Pharamacy</a></td>
+<td><span>1.42%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BitdeerTechnologies">Bitdeer Technologies</a></td>
+<td><span>2.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PagseguroDigital">Pagseguro Digital</a></td>
+<td><span>0.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Dun&BradstreetHoldi">Dun &amp; Bradstreet Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AmentumHoldings">Amentum Holdings</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/COMET">COMET</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EMBRACER">EMBRACER GROUP</a></td>
+<td><span>1.96%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ConduitPharmaceutic">Conduit Pharmaceuticals</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LithiumArgentina">Lithium Argentina</a></td>
+<td><span>3.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CANAL+">CANAL+</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SkyeBioscience">Skye Bioscience</a></td>
+<td><span>0.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ASMODEE">ASMODEE GROUP</a></td>
+<td><span>1.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PostPrime">PostPrime</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HydrofarmHoldings">Hydrofarm Holdings Group</a></td>
+<td><span>0.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NeoVolta">NeoVolta</a></td>
+<td><span>2.30%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Comstock">Comstock</a></td>
+<td><span>2.66%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TonixPharmaceutical">Tonix Pharmaceuticals Holding Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CADREHOLDINGS">CADRE HOLDINGS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KasumigasekiCapital">Kasumigaseki Capital Co</a></td>
+<td><span>6.78%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KaryopharmTherapeut">Karyopharm Therapeutics</a></td>
+<td><span>6.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NeoVolta">NeoVolta</a></td>
+<td><span>0.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HerculesCapital">Hercules Capital</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Riskified">Riskified</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Workhorse">Workhorse Group</a></td>
+<td><span>1.18%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/COMETHOLDING">COMET HOLDING</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SMURFITWESTROCKPUBL">SMURFIT WESTROCK PUBLIC LIMITED COMPANY</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Isoenergy">Isoenergy</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KULRTechnology">KULR Technology Group</a></td>
+<td><span>6.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ATAILifeSciences">ATAI Life Sciences</a></td>
+<td><span>1.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FujiccoCo">Fujicco Co.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KULRTedchnology">KULR Tedchnology Group</a></td>
+<td><span>1.78%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BRileyFinancial">B. Riley Financial</a></td>
+<td><span>0.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BRileyFinancial">B. Riley Financial</a></td>
+<td><span>3.41%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BRileyFinancial">B. Riley Financial</a></td>
+<td><span>3.41%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Angi">Angi</a></td>
+<td><span>0.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OrganigramGlobal">Organigram Global</a></td>
+<td><span>1.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KasumigaasekiCapita">Kasumigaaseki Capital Co</a></td>
+<td><span>1.45%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AngiHomeservices">Angi Homeservices</a></td>
+<td><span>1.15%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZaiLabLimited">Zai Lab Limited</a></td>
+<td><span>0.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TempestTherapeutics">Tempest Therapeutics</a></td>
+<td><span>1.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SproutSocial">Sprout Social</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DigitalWorldAcquisi">Digital World Acquisition Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Iperionx">Iperionx</a></td>
+<td><span>1.66%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CEOTRONICS">CEOTRONICS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SeresTherapeutics">Seres Therapeutics</a></td>
+<td><span>2.08%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CreativeMedia&Commu">Creative Media &amp; Community Trust Corporation</a></td>
+<td><span>1.07%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CreativeMedia&Commu">Creative Media &amp; Community Trust</a></td>
+<td><span>1.08%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OnHolding">On Holding</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OrganiGramHoldings">OrganiGram Holdings</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/X4Pharmaceuticals">X4 Pharmaceuticals</a></td>
+<td><span>2.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/X4PHARMACEUTICALS">X4 PHARMACEUTICALS</a></td>
+<td><span>2.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TempestTherapeutics">Tempest Therapeutics</a></td>
+<td><span>1.08%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KULRTedchnology">KULR Tedchnology Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CreativeMediaandCom">Creative Media and Community Trust</a></td>
+<td><span>0.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FDTECHNOLOGIESPUBLI">FD TECHNOLOGIES PUBLIC LIMITED COMPANY</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AstroscaleHoldings">Astroscale Holdings</a></td>
+<td><span>0.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AMPLITUDE">AMPLITUDE</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RobosenseTechnology">Robosense Technology Co.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GalaxyDigital">Galaxy Digital</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QIFUTECHNOLOGY">QIFU TECHNOLOGY</a></td>
+<td><span>0.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AevaTechnologies">Aeva Technologies</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Tillys">Tillys</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RocketLabCorp">Rocket Lab Corp</a></td>
+<td><span>1.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TempusAI">Tempus AI</a></td>
+<td><span>2.35%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Kestrel">Kestrel Group</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TempusAI">Tempus AI</a></td>
+<td><span>2.35%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RedcarePhcarmacy">Redcare Phcarmacy</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ImmunocoreHoldings">Immunocore Holdings</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/StarzEntertainmentC">Starz Entertainment Corp</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MaidenHoldings">Maiden Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AlphaHPA">Alpha HPA</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NektarTherapeutics">Nektar Therapeutics</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EVgo">EVgo</a></td>
+<td><span>0.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FibroGen">FibroGen</a></td>
+<td><span>2.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FUCHS">FUCHS</a></td>
+<td><span>1.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ForwardAirCorp">Forward Air Corp</a></td>
+<td><span>2.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PAYSAFELIMITED">PAYSAFE LIMITED</a></td>
+<td><span>0.67%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/eToro">eToro Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DefiDevelopmentCorp">Defi Development Corp.</a></td>
+<td><span>7.48%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ForwardAirCorp(Dela">Forward Air Corp (Delaware)</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QVC">QVC Group</a></td>
+<td><span>1.40%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Stem">Stem</a></td>
+<td><span>4.34%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Energiekontor">Energiekontor</a></td>
+<td><span>2.08%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ASPIsotopes">ASP Isotopes</a></td>
+<td><span>3.37%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OddityTech">Oddity Tech</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AYRO">AYRO</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JamesHardieIndustri">James Hardie Industries</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PenguinSolutions">Penguin Solutions</a></td>
+<td><span>1.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PenguinSolutions">Penguin Solutions</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/1-800Flowerscom">1-800 Flowers.com</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SteyrMotors">Steyr Motors</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SABLEOFFSHORECORP">SABLE OFFSHORE CORP</a></td>
+<td><span>2.34%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SableOffshoreCorp">Sable Offshore Corp</a></td>
+<td><span>2.34%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WeRide">WeRide</a></td>
+<td><span>1.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SharplinkGaming">Sharplink Gaming</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SharpLinkGaming">SharpLink Gaming</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Paysafe">Paysafe</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LifestyleCommunitie">Lifestyle Communities</a></td>
+<td><span>1.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IL0011974909">IL0011974909</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Celcuity">Celcuity</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BitMineImmersionTec">BitMine Immersion Technologies</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GreatlandResources">Greatland Resources</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SSP">SSP GROUP</a></td>
+<td><span>0.95%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MersanaTherapeutics">Mersana Therapeutics</a></td>
+<td><span>3.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OraBandaMining">Ora Banda Mining</a></td>
+<td><span>0.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ParamountSkydanceCo">Paramount Skydance Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PARAMOUNTSKYDANCECO">PARAMOUNT SKYDANCE CORP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PARAMOUNTSKYDANCECO">PARAMOUNT SKYDANCE CORPORATION (New Pluto Global, Inc.)</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ParamountSkydanceCo">Paramount Skydance Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Veru">Veru</a></td>
+<td><span>2.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/iSharesSTOXXEurope6">iShares STOXX Europe 600 Construction &amp; Materials UCITS ETF DE</a></td>
+<td><span>1.37%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BeyondAir">Beyond Air</a></td>
+<td><span>0.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RWEPensionsfonds">RWE Pensionsfonds</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NorthData">North Data</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IntuitiveMachines">Intuitive Machines</a></td>
+<td><span>3.41%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Eckert&Ziegler">Eckert &amp; Ziegler</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MersanaTherapeutics">Mersana Therapeutics</a></td>
+<td><span>3.18%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ViperEnergy">Viper Energy</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FiscalNoteHoldings">FiscalNote Holdings</a></td>
+<td><span>2.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BitDigital">Bit Digital</a></td>
+<td><span>4.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OscarHealth">Oscar Health</a></td>
+<td><span>3.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AuroraInnovation">Aurora Innovation</a></td>
+<td><span>0.85%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Neonode">Neonode</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OscarHealth">Oscar Health</a></td>
+<td><span>0.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IONOS">IONOS</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IONQ">IONQ</a></td>
+<td><span>1.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ArqitQuantum">Arqit Quantum</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TNFPharmaceuticals">TNF Pharmaceuticals</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MiamiInternationalH">Miami International Holdings</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GlobalMedicalREIT">Global Medical REIT</a></td>
+<td><span>0.81%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PMETResources">PMET Resources</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DaimlerTruckMENAHol">Daimler Truck MENA Holding</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DPMMetals">DPM Metals</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Y-Intercept(HongKon">Y-Intercept (Hong Kong) Limited</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ElevraLithium">Elevra Lithium</a></td>
+<td><span>1.67%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PebblebrookHotelTru">Pebblebrook Hotel Trust</a></td>
+<td><span>1.37%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CanadianBancCorp">Canadian Banc Corp</a></td>
+<td><span>0.64%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SigmaLithiumCorp">Sigma Lithium Corp</a></td>
+<td><span>1.29%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Netskope">Netskope</a></td>
+<td><span>1.78%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RIGETTICOMPUTING">RIGETTI COMPUTING</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SonyFinancial">Sony Financial Group</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TerraVestIndustries">TerraVest Industries</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AcademySportsandOut">Academy Sports and Outdoors</a></td>
+<td><span>1.46%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TKMSAG&CoKGaA">TKMS AG &amp; Co. KGaA</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SenseonicsHoldings">Senseonics Holdings</a></td>
+<td><span>2.24%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/XbraneBiopharma">Xbrane Biopharma</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Formycon">Formycon</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AlliedPropertiesRea">Allied Properties Real Estate Investment Trust</a></td>
+<td><span>0.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ACADEMYSPORTS&OUTDO">ACADEMY SPORTS&amp;OUTDOORS</a></td>
+<td><span>0.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GettyImagesHoldings">Getty Images Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NXGCUSHINGMIDSTREAM">NXG CUSHING MIDSTREAM ENERGY FUND</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ByrnaTechnologies">Byrna Technologies</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AmericanBatteryTech">American Battery Technology Company</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PonyAI">Pony AI</a></td>
+<td><span>0.94%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AMERICANBATTERYTECH">AMERICAN BATTERY TECHNOLOGY</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ClarityPharmaceutic">Clarity Pharmaceuticals</a></td>
+<td><span>1.91%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Bancorp">Bancorp</a></td>
+<td><span>1.37%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ThyssenKruppSteelEu">ThyssenKrupp Steel Europe</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CompassDiversifiedH">Compass Diversified Holdings</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MicroStrategyIncorp">MicroStrategy Incorporated (Strategy)</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AmericanBatteryTech">American Battery Technology Co</a></td>
+<td><span>1.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VoyagerTechnologies">Voyager Technologies</a></td>
+<td><span>2.75%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/VoyagerTechnologies">Voyager Technologies</a></td>
+<td><span>2.75%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AtaiBeckley">Atai Beckley</a></td>
+<td><span>1.41%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LandbridgeCompanyLL">Landbridge Company LLC</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Inforich">Inforich</a></td>
+<td><span>1.07%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LandBridgeCoLLC">LandBridge Co LLC</a></td>
+<td><span>0.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cango">Cango</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NavitasSemiconducto">Navitas Semiconductor Corp</a></td>
+<td><span>6.45%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InstilBio">Instil Bio</a></td>
+<td><span>2.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LegendBiotechCorp">Legend Biotech Corp</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AirshipAIHoldings">Airship AI Holdings</a></td>
+<td><span>1.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/COVERCORP">COVER CORP</a></td>
+<td><span>1.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Strategy">Strategy</a></td>
+<td><span>1.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TamboranResourcesCo">Tamboran Resources Corp.</a></td>
+<td><span>4.96%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TilrayBrands">Tilray Brands</a></td>
+<td><span>1.40%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeliveryHeroGermany">Delivery Hero Germany</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SutroBiopharma">Sutro Biopharma</a></td>
+<td><span>1.33%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OxfordInstruments">Oxford Instruments</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MTRONINDUSTRIES">M TRON INDUSTRIES</a></td>
+<td><span>1.86%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ETHZillaCorp">ETHZilla Corp</a></td>
+<td><span>1.45%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Fenbi">Fenbi</a></td>
+<td><span>0.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Knightscope">Knightscope</a></td>
+<td><span>2.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HudsonPacificProper">Hudson Pacific Properties</a></td>
+<td><span>1.19%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WhiteFiber">WhiteFiber</a></td>
+<td><span>1.94%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Kontron">Kontron</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Alzchem">Alzchem Group</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ShibauraMechatronic">Shibaura Mechatronics Corp</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AUDIOEYE">AUDIOEYE</a></td>
+<td><span>1.33%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aiming">Aiming</a></td>
+<td><span>0.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SourcenextCorp">Sourcenext Corp</a></td>
+<td><span>1.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BrevanHowardInvestm">Brevan Howard Investment Products Limited (Jersey)</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ThirdCoastBancshare">Third Coast Bancshares</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AxelMark">Axel Mark</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SimulationsPlus">Simulations Plus</a></td>
+<td><span>3.03%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TileShopHoldings">Tile Shop Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ALLIGATORENERGY">ALLIGATOR ENERGY</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IntelligentBioSolut">Intelligent Bio Solutions</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NutexHealth">Nutex Health</a></td>
+<td><span>2.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DiversifiedEnergyCo">Diversified Energy Co</a></td>
+<td><span>2.33%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AdicetBio">Adicet Bio</a></td>
+<td><span>2.04%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ioneer">ioneer</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InfinityNaturalReso">Infinity Natural Resources</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AKANDACORPCM">AKANDA CORP/CM</a></td>
+<td><span>0.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AKANDACORP">AKANDA CORP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DefiniumTherapeutic">Definium Therapeutics</a></td>
+<td><span>0.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AmericanBitcoinCorp">American Bitcoin Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TitanMiningCorp">Titan Mining Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DrInghcFPorsche">Dr. Ing. h.c. F. Porsche</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KodamaChemicalIndus">Kodama Chemical Industry Co.</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ARCHERAVIATION">ARCHER AVIATION</a></td>
+<td><span>4.81%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ATOMICEAGLE">ATOMIC EAGLE</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AtossaTherapeutics">Atossa Therapeutics</a></td>
+<td><span>1.05%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/XtalPiHoldings">XtalPi Holdings</a></td>
+<td><span>0.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SESAICorp">SES AI Corp</a></td>
+<td><span>1.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IONOS">IONOS Group</a></td>
+<td><span>1.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PIZZAPIZZAROYALTYCO">PIZZA PIZZA ROYALTY CORP.</a></td>
+<td><span>0.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PERPETUARESOURCESCO">PERPETUA RESOURCES CORP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IvanhoeElectric">Ivanhoe Electric</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MARAHolding">MARA Holding</a></td>
+<td><span>0.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FGNexus">FG Nexus</a></td>
+<td><span>1.48%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WaystarHoldingCorp">Waystar Holding Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MARAHOLDINGS">MARA HOLDINGS</a></td>
+<td><span>0.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ENVVENOMEDICALCORP">ENVVENO MEDICAL CORP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EosEnergyEnterprise">Eos Energy Enterprises</a></td>
+<td><span>4.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AIROGroupHoldings">AIRO Group Holdings</a></td>
+<td><span>3.46%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BIGBEARAIHOLDINGS">BIGBEARAI HOLDINGS</a></td>
+<td><span>2.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SolidPower">Solid Power</a></td>
+<td><span>2.38%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RackspaceTechnology">Rackspace Technology</a></td>
+<td><span>0.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Xperi">Xperi</a></td>
+<td><span>3.11%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AUMOVIO">AUMOVIO</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZipCo">Zip Co</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Douglas">Douglas</a></td>
+<td><span>0.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Dave">Dave</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/COFFEESTAINGROUPCLA">COFFEE STAIN GROUP CLASS B</a></td>
+<td><span>2.28%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CoffeeStain">Coffee Stain Group</a></td>
+<td><span>1.01%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TechnoHorizonCo">Techno Horizon Co</a></td>
+<td><span>1.94%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/B&MEuropeanValueRet">B&amp;M European Value Retail</a></td>
+<td><span>6.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ToyoSecuritiesCo">Toyo Securities Co.</a></td>
+<td><span>1.99%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ForwardIndustries">Forward Industries</a></td>
+<td><span>0.80%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WealthfrontCorp">Wealthfront Corp</a></td>
+<td><span>0.79%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CALUMET">CALUMET</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ORIGINMATERIALS">ORIGIN MATERIALS</a></td>
+<td><span>1.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RockTechLithium">Rock Tech Lithium</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HiroshimaGasCo">Hiroshima Gas Co.</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MRPRICE">MR PRICE GROUP</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Rumble">Rumble</a></td>
+<td><span>0.66%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WealthfrontCorporat">Wealthfront Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FibroBiologics">FibroBiologics</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FrontierNuclearandM">Frontier Nuclear and Minerals</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Verve">Verve Group</a></td>
+<td><span>0.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SanyoTradingCo">Sanyo Trading Co</a></td>
+<td><span>0.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RIGAKUHOLDINGSCORP">RIGAKU HOLDINGS CORP</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZipCoLimited">Zip Co Limited</a></td>
+<td><span>0.98%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Harrow">Harrow</a></td>
+<td><span>0.78%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/flatexDEGIRO">flatexDEGIRO</a></td>
+<td><span>0.88%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cenntro">Cenntro</a></td>
+<td><span>1.75%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HarvardBioscience">Harvard Bioscience</a></td>
+<td><span>0.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AsahiYukizaiCorpora">Asahi Yukizai Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TechnoRyowa">Techno Ryowa</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SHIMASEIKIMANUFACTU">SHIMA SEIKI MANUFACTURING</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NauticusRobotics">Nauticus Robotics</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SunCorp">Sun Corp</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MitsubaCorp">Mitsuba Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SunCorporation">Sun Corporation</a></td>
+<td><span>0.90%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MitsubaCorporation">Mitsuba Corporation</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SUIGroupHoldings">SUI Group Holdings</a></td>
+<td><span>0.91%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TokyoElectronDevice">Tokyo Electron Device</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RigakuHoldingsCorpo">Rigaku Holdings Corporation</a></td>
+<td><span>0.62%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Immunic">Immunic</a></td>
+<td><span>2.21%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KikuchiSeisakushoCo">Kikuchi Seisakusho Co</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NetProtectionsHoldi">Net Protections Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ECARXHoldings">ECARX Holdings</a></td>
+<td><span>1.27%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Strive">Strive</a></td>
+<td><span>4.46%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CODAOCTOPUS">CODA OCTOPUS GROUP</a></td>
+<td><span>1.36%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QDLaser">QD Laser</a></td>
+<td><span>1.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CHRONOSCALECORPORAT">CHRONOSCALE CORPORATION</a></td>
+<td><span>0.93%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GigaCloudTechnology">GigaCloud Technology</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RTL">RTL Group</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SolmateInfrastructu">Solmate Infrastructure Public</a></td>
+<td><span>1.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MicroAd">MicroAd</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RedwireCorp">Redwire Corp</a></td>
+<td><span>6.49%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SATELLOGIC">SATELLOGIC</a></td>
+<td><span>2.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OfferpadSolutions">Offerpad Solutions</a></td>
+<td><span>2.07%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DigimarcCorporation">Digimarc Corporation</a></td>
+<td><span>1.25%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DigimarcCorp">Digimarc Corp.</a></td>
+<td><span>0.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DEKONFoodandAgricul">DEKON Food and Agriculture Group</a></td>
+<td><span>0.59%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CONTROLADORAVUELACO">CONTROLADORA VUELA COMPAÑIA DE AVIACION S A B DE C V</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DigimarcLLC">Digimarc LLC</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NipponConcreteIndus">Nippon Concrete Industries Co.</a></td>
+<td><span>0.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NUVALENT">NUVALENT</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EDPCorporation">EDP Corporation</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Dye&Durham">Dye &amp; Durham</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AxelspaceHoldingsCo">Axelspace Holdings Corp</a></td>
+<td><span>1.72%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Dye&DurhamCorporati">Dye &amp; Durham Corporation</a></td>
+<td><span>0.55%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SmooreInternational">Smoore International Holdings Limited</a></td>
+<td><span>0.55%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PEXA">PEXA GROUP</a></td>
+<td><span>0.51%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WasionHoldings">Wasion Holdings</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MicrowaveChemicalCo">Microwave Chemical Co.Ltd.</a></td>
+<td><span>0.96%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CPSTechnologiesCorp">CPS Technologies Corp</a></td>
+<td><span>0.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ENVIRIIICORPORATION">ENVIRI II CORPORATION</a></td>
+<td><span>1.44%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CPSTechnologiesCorp">CPS Technologies Corporation</a></td>
+<td><span>1.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CPSTECHNOLOGIESCORP">CPS TECHNOLOGIES CORP</a></td>
+<td><span>0.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SEABRIDGEGOLD">SEABRIDGE GOLD</a></td>
+<td><span>1.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ButterflyNetwork">Butterfly Network</a></td>
+<td><span>0.71%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KEELINFRASTRUCTUREC">KEEL INFRASTRUCTURE CORP.</a></td>
+<td><span>6.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SharonAIHoldings">SharonAI Holdings</a></td>
+<td><span>1.15%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/InnovativeSolutions">Innovative Solutions And Support</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Tonies">Tonies</a></td>
+<td><span>1.65%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/CONTROLADORAVUELACO">CONTROLADORA VUELA COMPANIA DE AVIACION, S.A.B. DE C.V.</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KRSCorp">KRS Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GeospaceTechnologie">Geospace Technologies Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NextGenerationTechn">Next Generation Technology Group</a></td>
+<td><span>1.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MORROWBANK">MORROW BANK</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GB00BKRC5K31">GB00BKRC5K31</a></td>
+<td><span>0.83%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RolandCorporation">Roland Corporation</a></td>
+<td><span>0.92%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PURECYCLETECHNOLOGI">PURECYCLE TECHNOLOGIES</a></td>
+<td><span>3.17%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ALIGHT">ALIGHT</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RyoyoRyosanHoldings">Ryoyo Ryosan Holdings</a></td>
+<td><span>1.30%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Marqeta">Marqeta</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FuboTV">FuboTV</a></td>
+<td><span>1.31%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Aeluma">Aeluma</a></td>
+<td><span>5.92%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Ceribell">Ceribell</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SoundHoundAI">SoundHound AI</a></td>
+<td><span>5.73%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NuvationBio">Nuvation Bio</a></td>
+<td><span>0.70%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QXO">QXO</a></td>
+<td><span>1.60%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SOUNDHOUNDAI">SOUNDHOUND AI</a></td>
+<td><span>0.58%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ThePlatformGroupSE&">The Platform Group SE &amp; Co. KGaA</a></td>
+<td><span>0.77%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MAREXUKHOLDINGSLIMI">MAREX UK HOLDINGS LIMITED</a></td>
+<td><span>1.76%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TerraDroneCorporati">Terra Drone Corporation</a></td>
+<td><span>0.96%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/DeliveryAngels">Delivery Angels</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PureCycleTechnology">PureCycle Technology</a></td>
+<td><span>0.53%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/LMFundingAmerica">LM Funding America</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ExproGroupHoldings">Expro Group Holdings</a></td>
+<td><span>1.10%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JOSTWerke">JOST Werke</a></td>
+<td><span>0.61%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/SMAGMobileAntennaMa">SMAG Mobile Antenna Masts</a></td>
+<td><span>0.68%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Circus">Circus</a></td>
+<td><span>0.56%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Momentus">Momentus</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GoldgroupMining">Goldgroup Mining</a></td>
+<td><span>1.13%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OsiskoGold">Osisko Gold Group</a></td>
+<td><span>2.89%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/OsiskoD%C3%A9veloppemen">Osisko Développement Corp</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Hesai">Hesai Group</a></td>
+<td><span>4.39%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/FRESHVINEWINE">FRESH VINE WINE</a></td>
+<td><span>0.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Expro">Expro</a></td>
+<td><span>1.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TECNOGLASS">TECNOGLASS</a></td>
+<td><span>0.69%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/KyokutoSecuritiesCo">Kyokuto Securities Co</a></td>
+<td><span>1.41%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/PowerCompute">PowerCompute</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ENVIRICORPORATION">ENVIRI CORPORATION</a></td>
+<td><span>3.29%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ZSquared">Z Squared</a></td>
+<td><span>0.89%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Cloudastructure">Cloudastructure</a></td>
+<td><span>0.74%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/IshiiHyokiCo">Ishii Hyoki Co</a></td>
+<td><span>0.73%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/JerseyMike'sSubs">Jersey Mike&#39;s Subs</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/Microvision">Microvision</a></td>
+<td><span>0.75%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QUANTINUUM">QUANTINUUM</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EnviriCorp">Enviri Corp</a></td>
+<td><span>0.57%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/EvolutionPowerXCorp">Evolution PowerX Corp.</a></td>
+<td><span>0.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WAVELIFESCIENCES">WAVE LIFE SCIENCES</a></td>
+<td><span>1.94%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/RockwellMedical">Rockwell Medical</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/MarexGroupLimited">Marex Group Limited</a></td>
+<td><span>1.28%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/ERock">ERock</a></td>
+<td><span>1.15%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/TigoEnergy">Tigo Energy</a></td>
+<td><span>1.29%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/2GEnergy">2G Energy</a></td>
+<td><span style="color: #aaaaaa;">0.00%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/WaveLifeSciences">Wave Life Sciences</a></td>
+<td><span>0.50%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AtlasEnergySolution">Atlas Energy Solutions</a></td>
+<td><span>3.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AtlasEnergySolution">Atlas Energy Solutions</a></td>
+<td><span>3.82%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/HAWKEYE360">HAWKEYE 360</a></td>
+<td><span>0.92%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/AvalonAdvancedMater">Avalon Advanced Materials</a></td>
+<td><span>1.11%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/GameSquareHoldings">GameSquare Holdings</a></td>
+<td><span>5.16%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/NemusBioscience">Nemus Bioscience</a></td>
+<td><span>1.09%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/BACKBLAZE">BACKBLAZE</a></td>
+<td><span>0.54%</span></td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td><a href="/short/QPSHoldings">QPS Holdings</a></td>
+<td><span>0.52%</span></td>
+<td>
+</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="span3" style="background_color_: #0000ff;">
+
+<div>
+
+
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4579712846808898"
+     data-ad-slot="2807288012"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+
+
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/shortsell_nl" data-widget-id="321619313029169152">Tweets by @shortsell_nl</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+</div>
+
+</div>
+
+
+<div class="row"><div class="span12"><hr/></div></div>
+
+
+<div class="row">
+  <div class="span12">
+    <br/>
+
+    <a id="disclaimer"></a>
+    <p>
+      <small style="color: #777777;">
+      Disclaimer: shortsell.nl is niet gelieerd aan de <a href="http://www.afm.nl">Autoriteit Financiele Markten</a> (AFM).
+      De informatie op deze website is gebaseerd op het "Register short selling" welke openbaar wordt gepubliceerd door de AFM en haar zusterorganisaties in Europa.
+      Meer informatie over het register en een link naar het register zelf is beschikbaar op de <a href="https://www.afm.nl/nl-nl/professionals/registers/meldingenregisters/netto-shortposities-actueel">betreffende pagina</a> van de AFM website.
+      Shortsell.nl geeft geen garanties over de juistheid van de informatie op deze pagina.
+      <br/>
+      Voor vragen en opmerkingen kunt u contact opnemen via info apestaartje shortsell.nl
+      </small>
+    </p>
+
+    <p>
+      <small style="color: #777777;">
+      <strong><span style="color: #000">ENGLISH </span>Disclaimer:</strong>
+      shortsell.nl is not affiliated with the Dutch Authority for the Financial Markets (AFM).
+      The information on this website is based on publicly available short selling registers published by the AFM and its European counterparts.
+      No guarantees are given regarding completeness, accuracy or timeliness of the information.
+      <br/>
+      For questions or remarks, please contact info [at] shortsell.nl
+      </small>
+    </p>
+
+    
+    <p class="text-right">
+      <small style="color: #777777;">
+      <a href="http://glyphicons.com/">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+      </small>
+    </p>
+
+  </div>
+</div>
+
+</div>
+
+</div>
+</div>
+<script type="text/javascript">
+TableKit.Sortable.addSortType(
+    new TableKit.Sortable.Type('commavalue', {
+        pattern : /^\d+,?\d+%/,
+        normal : function(v) {
+            v = v.replace(',', '.');
+            v = v.replace('%', '');
+            return parseFloat(v);
+        }
+    })
+);
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21912554-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

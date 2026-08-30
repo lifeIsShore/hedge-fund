@@ -78,6 +78,7 @@ FAMILY_FLAG_MAP = {
     'stationary_only': 'ENABLE_STATIONARY_ONLY',
     'regularized_models': 'ENABLE_REGULARIZED_MODELS',
     'short_volume': 'ENABLE_SHORT_VOLUME_FEATURES',
+    'combo_d': 'COMBO_D (Stationary + Regularized)',
 }
 CLI_FLAG_MAP = {
     'db_regime': '--enable-db-regime',
@@ -87,8 +88,9 @@ CLI_FLAG_MAP = {
     'acceleration':   '--enable-acceleration',
     'target_refinement': '--enable-alpha-target',
     'stationary_only': '--enable-stationary-only',
-    'regularized_models': '--enable-regularized-models',
-    'short_volume': '--enable-short-volume',
+    'regularized_models': ['--enable-regularized-models'],
+    'short_volume': ['--enable-short-volume'],
+    'combo_d': ['--enable-stationary-only', '--enable-regularized-models'],
 }
 
 # Gate 2 thresholds (from 00-OVERVIEW.md)
@@ -315,7 +317,7 @@ def main():
     group.add_argument(
         '--family',
         choices=['db_regime', 'pead', 'earnings', 'crosssectional', 'acceleration',
-                 'target_refinement', 'stationary_only', 'regularized_models', 'short_volume'],
+                 'target_refinement', 'stationary_only', 'regularized_models', 'short_volume', 'combo_d'],
         help="Feature family to test"
     )
     group.add_argument(
@@ -382,9 +384,12 @@ def main():
         print(f"  NOTE: Run --holdout-baseline first for a fair comparison.\n")
 
     # ── 2. Run pipeline with family enabled ───────────────────────────────────
-    cli_flag = CLI_FLAG_MAP[family]
+    cli_flags = CLI_FLAG_MAP[family]
+    if isinstance(cli_flags, str):
+        cli_flags = [cli_flags]
+
     if n_seeds == 1:
-        run_pipeline([cli_flag])
+        run_pipeline(cli_flags)
         aucs_after, below_050 = read_aucs_from_state()
         auc_after  = float(np.mean(aucs_after))
         std_after  = float(np.std(aucs_after))
@@ -392,7 +397,7 @@ def main():
         seed_std_after = 0.0
     else:
         auc_after, std_after, per_seed_aucs, n_tickers, below_050, seed_std_after = \
-            run_pipeline_multi_seed([cli_flag], seeds)
+            run_pipeline_multi_seed(cli_flags, seeds)
 
     delta_auc = auc_after - auc_before
     delta_std = std_after - std_before
